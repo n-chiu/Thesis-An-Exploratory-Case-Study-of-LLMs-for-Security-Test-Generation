@@ -9,7 +9,7 @@ that satisfies the relevant OWASP security vulnerabilities,
 and to which extent human intervention might be necessary. 
 
 # Large Language Models
-The following models are used for security test case generation:
+The following models are used for security test case generation and have not undergone fine-tuning:
 
 - OpenAI GPT-5.2
 
@@ -37,5 +37,5 @@ As a Software company Customer, I want the mobile client to observe the principl
 
 # How to Reproduce Results 
 
-1. Use the predefined user stories in this repository.
-2. For each user story, generate test cases with each model using the prompt template above. 
+1. Use the predefined user stories provided in this repository.
+2. For each model, use every user story exactly once with the prompt template above to generate test cases.
